@@ -14,7 +14,8 @@ To use this software.
 3. Type docker-compose build (you can do docker-compose up --build or docker-compose up -d --build)
 4. Type docker-compose up or docker-compose up -d (daemonized mode).
 
-You should be able to access from http://localhost/<number>
+You should be able to access from http://localhost/(a postive integer)
+
 Example http://localhost/15
 
 Note: This attempts to bind NGINX to port 80 on the host.  If this is unacceptable modify docker-compose.yml accordingly and the hostname in web_app/tests/test_fib.py. 
