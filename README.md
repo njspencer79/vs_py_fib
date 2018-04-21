@@ -32,4 +32,7 @@ On Windows
 2. run docker-compose up -d
 3. run docker-compose exec web python tests/test_fib.py
 
+This should work on other platforms that support Docker Compose.
+
 Remember to type docker-compose down to destroy the running containers when done or if you wish to switch versions.  
+
