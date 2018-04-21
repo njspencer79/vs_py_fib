@@ -4,7 +4,7 @@ Included are two versions of fibonacci as a service.
 - fib_aas - is on Python 2.7, NGINX and web.py framework.  
 - fib_aas3 - is on Python 3.6, NGINX and web.py dev release framework.  
 
-With the retirement of Python 2.x branch in 2020 various 2.x based libraries are starting to migrate to 3.x series, if they haven't already. I believed the running a dev/pre-release version of web.py framework would be unwise in production.  But it would be good to be prepared with a version for Python 3.  This use of NGINX and gunicorn are considered effective production methods for Python web applications on Docker.  Further I followed the separate of concerns method of dividing containters.  Also if we wished to expand services we could split the backend into multiple specialized containers.  If we wished to replace the web.py with another framework like flask or django, that would be straighforward to do.  
+With the retirement of Python 2.x branch in 2020 various 2.x based libraries are starting to migrate to 3.x series, if they haven't already. I believed the running a dev/pre-release version of web.py framework would be unwise in production.  But it would be good to be prepared with a version for Python 3.  The use of NGINX and gunicorn are considered effective production methods for Python web applications on Docker.  Further I followed the separate of concerns method of dividing containters.  Also if we wished to expand services we could split the backend into multiple specialized containers.  If we wished to replace the web.py with another framework like flask or django, that would be straighforward to do.  
 
 Pre-requisites:  Docker (tested on 18.03 and docker compose 3 format)
 
