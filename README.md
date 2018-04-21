@@ -27,7 +27,7 @@ On macOS/LINUX (might work on Windows w/ Docker or Docker Toolkit)
 1. In terminal or command prompt. Change into either fib_aas or fib_aas3 directory.
 2. ./run_unit_test.sh 
 
-On Windows
+On Windows (or in case the script does not work)
 1. Command prompt. Change into either fib_aas or fib_aas3 directory.
 2. run docker-compose up -d
 3. run docker-compose exec web python tests/test_fib.py
