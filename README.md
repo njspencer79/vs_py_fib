@@ -14,7 +14,7 @@ To use this software.
 3. Type docker-compose build (you can do docker-compose up --build or docker-compose up -d --build)
 4. Type docker-compose up or docker-compose up -d (daemonized mode).
 
-You should be able to access from http://localhost/(a postive integer)
+You should be able to access from http://localhost/ (a postive integer)
 
 Example http://localhost/15
 
