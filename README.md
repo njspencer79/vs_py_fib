@@ -23,7 +23,7 @@ Note: This attempts to bind NGINX to port 80 on the host.  If this is unacceptab
 Included is a unit test script that runs valid and invalid data against the fib_aas service.  
 
 To run the test suite 
-On macOS/LINUX
+On macOS/LINUX (might work on Windows w/ Docker or Docker Toolkit)
 1. In terminal or command prompt. Change into either fib_aas or fib_aas3 directory.
 2. ./run_unit_test.sh 
 
