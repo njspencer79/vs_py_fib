@@ -1,5 +1,4 @@
 FROM python:2.7-slim
-MAINTAINER Yora Radityohutomo <yoratyo@gmail.com>
 
 RUN apt-get update && apt-get install -qq -y \
   build-essential libgmp3-dev --no-install-recommends
