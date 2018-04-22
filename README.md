@@ -31,7 +31,7 @@ On macOS/LINUX (might work on Windows w/ Docker or Docker Toolkit)
 On Windows (or in case the script does not work)
 1. Command prompt. Change into either fib_aas or fib_aas3 directory.
 2. run docker-compose up -d
-3. run docker-compose exec web python tests/test_fib.py
+3. run docker-compose exec web python tests/test_fib.py or (docker-compose run web python tests/test_fib.py)
 
 This should work on other platforms that support Docker Compose.
 
