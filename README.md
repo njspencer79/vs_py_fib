@@ -6,7 +6,8 @@ Included are two versions of fibonacci as a service.
 
 With the retirement of Python 2.x branch in 2020 various 2.x based libraries are starting to migrate to 3.x series, if they haven't already. I believed the running a dev/pre-release version of web.py framework would be unwise in production.  But it would be good to be prepared with a version for Python 3.  The use of NGINX and gunicorn are considered effective production methods for Python web applications on Docker. I followed the separation of services method of dividing containters.  Also, if we wished to expand services we could split the backend into multiple specialized containers.  If we wished to replace the web.py with another framework like flask or django, that would be straighforward to do.  
 
-Pre-requisites:  Docker (tested on 18.03 and docker compose v3.0 or later format)
+Pre-requisites:  Docker (tested on 18.03 and docker compose v3.0 or later format) 
+Tested: On macOS and Linux.
 
 To use this software.
 1. Download this repo.
